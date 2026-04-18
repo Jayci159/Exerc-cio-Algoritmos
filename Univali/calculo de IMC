@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main(){
+    float peso, altura, imc;
+
+    cout<<"Digite seu peso: "<<endl;
+    cin>> peso;
+    cout <<"Digite sua altura: ";
+    cin>> altura;
+
+    imc = peso / (altura * altura);
+
+    cout << fixed << setprecision(2);
+    cout << "\nSeu IMC e: " << imc << endl;
+}

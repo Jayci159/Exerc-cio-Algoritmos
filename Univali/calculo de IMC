@@ -7,7 +7,7 @@ int main(){
 
     cout<<"Digite seu peso: "<<endl;
     cin>> peso;
-    cout <<"Digite sua altura: ";
+    cout <<"Digite sua altura:(x.xx) ";
     cin>> altura;
 
     imc = peso / (altura * altura);
